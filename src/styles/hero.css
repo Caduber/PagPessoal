@@ -1,0 +1,132 @@
+#hero {
+    margin-left: var(--margem);
+    margin-right: var(--margem);
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8vh;
+}
+
+#h-titulo{
+    margin-top: 3rem;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 3rem;
+    transition: 1s;
+}
+
+#h-titulo:hover{
+    font-weight: 500;
+    transition: 1s;
+}
+
+#apresenta{
+    font-size: 8vh;
+    font-weight: 600;
+    transition: 1s;
+}
+
+#apresenta:hover{
+    font-weight: 400;
+    transform: scaleX(3);
+    transition: 1s;
+}
+
+#hero-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: space-between; */
+    max-height: 63vh;
+    margin-top: 3rem;
+}
+
+#hero-foto{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 0px;
+    transition: 2s;
+}
+
+#hero-foto:hover {
+    scale: 1.05;
+    transition: 2s;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 2.6vw;
+    margin: 0px;
+}
+
+img {
+    /* width: 480px; */
+    width: 25vw;
+    transition: 2s;
+}
+
+img:hover{
+    transform: rotate(2deg);
+    transition: 2s;
+}
+
+#botoes{
+    margin-top: 25vh;
+    display: flex;
+    gap: 20px;
+}
+
+#port{
+    background-color: var(--claro);
+    color: var(--branco);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    font-size: 28px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    min-width: fit-content;
+    transition: 0.5s;
+}
+
+#port:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+    scale: 1.05;
+    transition: 0.6s;
+}
+
+#exp{
+    background-color: #ffffff00;
+    border-color: var(--claro);
+    border-width: 2px;
+    color: var(--branco);
+    border-radius: 6px;
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    /* font-size: 2rem; */
+    font-size: 28px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    min-width: fit-content;
+    transition: 0.6s;
+}
+
+#exp:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+    scale: 1.05;
+    transition: 0.6s;
+    border: none;
+}
+
+@media screen and (max-width: 1920px) {
+    #hero {
+        height: 64vh;
+    }
+}

@@ -1,0 +1,54 @@
+header {
+    background-color: rgba(0, 0, 0, 0.103);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#h-logo {
+    margin-left: var(--margem);
+    font-size: 20px;
+}
+
+#h-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--margem);
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    /* color: var(--claro); */
+    color: var(--branco);
+    transition: 1s;
+}
+
+header a:hover{
+    color: var(--claro);
+    scale: 1.05;
+    transition: 2s;
+}
+
+header button {
+    background-color: var(--claro);
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+header button:hover {
+    background-color: var(--branco);
+    color: var(--claro);
+    transition: 0.4s;
+}
