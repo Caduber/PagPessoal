@@ -1,6 +1,7 @@
 import '../styles/global.css';
 import '../styles/hero.css';
 import Face from '../assets/Face.png'
+import { BriefcaseBusiness, Linkedin, Github, Cat } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
@@ -39,9 +40,14 @@ export default function Hero() {
             <div>
                 <h1 id='h-titulo'>{textoAtual}</h1>
                 <span id='apresenta'>Eu sou Carlos Lopes</span>
+                <div id='sociais'>
+                    <a href="https://github.com/Caduber" target='_blank'><Github strokeWidth={0} fill='#ff819eff' /></a>
+                    <a href="https://www.linkedin.com/in/caduber/" target='_blank'><Linkedin strokeWidth={0} fill='#ff819eff' /></a>
+                
+                </div>
             </div>
             <div id='botoes'>
-                <button id='port'><span>Portfólio</span></button>
+                <button id='port'>Portfólio</button>
                 <button id='exp'>Experiência</button>
             </div>
         </div>

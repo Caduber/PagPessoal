@@ -6,9 +6,15 @@
     --branco: #fafafa;
     --margem: 12vw;
     font-family: "Montserrat";
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0px;
     background-color: var(--preto);
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
