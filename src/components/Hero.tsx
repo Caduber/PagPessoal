@@ -1,7 +1,7 @@
 import '../styles/global.css';
 import '../styles/hero.css';
 import Face from '../assets/Face.png'
-import { BriefcaseBusiness, Linkedin, Github, Cat } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
