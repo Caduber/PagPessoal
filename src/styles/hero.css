@@ -156,7 +156,7 @@ img:hover{
     padding: 15px;
 }
 
-#exp:hover{
+#exp:hover {
     background-color: var(--branco);
     color: var(--preto);
     scale: 1.05;
