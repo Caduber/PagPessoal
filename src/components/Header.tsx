@@ -5,12 +5,12 @@ export default function Header() {
     return (
         <header>
             <div id="h-logo">
-                <a href="#hero"><span>Carlos Lopes</span></a>
+                <a href="#hero" ><span>Carlos Lopes</span></a>
             </div>
             <div id="h-links">
                 <a href="#sobre">Sobre</a>
                 <a href="#portfolio">Portfólio</a>
-                <a href=""><button>Contato</button></a>
+                <a href=""><button data-cursor="text">Contato</button></a>
             </div>
         </header>
     )

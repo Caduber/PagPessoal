@@ -33,13 +33,15 @@ export default function Hero() {
             }, 100);
 
     }, [] );
+
+    
     
     return (
         <section id="hero">
         <div id="hero-texto">
             <div>
-                <h1 id='h-titulo'>{textoAtual}</h1>
-                <span id='apresenta'>Eu sou Carlos Lopes</span>
+                <h1 id='h-titulo' >{textoAtual}</h1>
+                <span id='apresenta' data-cursor="text">Eu sou Carlos Lopes</span>
                 
                 <div id='sociais'>
                     <a href="https://github.com/Caduber" target='_blank'><Github className='muda-cor' strokeWidth={0} fill='#ff819eff' /></a>
@@ -53,7 +55,7 @@ export default function Hero() {
             </div>
         </div>
         <div id='hero-foto'>
-            <img src={Face} alt="Minha foto" />
+            <img src={Face} alt="Minha foto" data-cursor="text"/>
             <p>Software Engineer</p>
         </div>
         </section>

@@ -1,0 +1,15 @@
+
+#cursor {
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff34;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    z-index: -1;
+}
