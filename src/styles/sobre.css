@@ -1,9 +1,12 @@
 #sobre {
     box-sizing: border-box;
-    /* height: 100vh; */
+    height: 110vh;
     background-color: var(--claro);
-    margin-top: 10vh;
+    margin-top: 12vh;
     /* margin: var(--margem); */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #titulo {

@@ -1,10 +1,13 @@
 #hero {
+    position: sticky;
+    top: 0;
     margin-left: var(--margem);
     margin-right: var(--margem);
     color: #ffff;
     display: flex;
     justify-content: space-between;
     padding-top: 8vh;
+    z-index: -1;    
 }
 
 #h-titulo{
