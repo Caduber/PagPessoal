@@ -1,6 +1,7 @@
 #sobre {
-    height: 100vh;
-    background-color: #bc8895;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    background-color: var(--claro);
     margin-top: 10vh;
     /* margin: var(--margem); */
 }

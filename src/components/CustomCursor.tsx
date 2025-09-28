@@ -54,9 +54,6 @@ export default function CustomCursor() {
 
     // Componente
     return (
-        <div onMouseEnter={enter} onMouseLeave={leave}>
-            a
             <motion.div id='cursor' variants={variants} animate={variant}/>
-        </div>
     )
 }

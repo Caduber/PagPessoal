@@ -6,15 +6,15 @@
     --branco: #fafafa;
     --margem: 12vw;
     font-family: "Montserrat";
-    scroll-behavior: smooth;
+}
+
+* {
+    /* box-sizing: border-box; */
+    /* outline: 1px solid red !important; */
 }
 
 body {
-    margin: 0px;
     background-color: var(--preto);
-}
-
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: 80px;
+    margin: 0px;
+    padding: 0px;
 }
