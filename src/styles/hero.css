@@ -8,15 +8,16 @@
 }
 
 #h-titulo{
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 0px;
     font-weight: 300;
     font-size: 2rem;
     transition: 1s;
-    animation: engrossa 6s ease-in-out infinite;
+    /* animation: engrossa 6s ease-in-out infinite; */
 }
 
 #h-titulo:hover{
+    font-weight: 500;
     font-weight: 500;
     transition: 1s;
 }
@@ -62,6 +63,10 @@
     transition: 2s;
 }
 
+a{
+    text-decoration: none;
+}
+
 p{
     font-weight: lighter;
     font-size: 2.6vw;
@@ -83,18 +88,22 @@ img:hover{
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
-    gap: 12px;
+    gap: 8px;
 }
 
-#sociais a .lucide:hover{
+.muda-cor:hover{
     fill: var(--branco);
+}
+
+.muda-cor-stroke:hover{
+    stroke: var(--branco);
 }
 
 .lucide{
     /* stroke-width: 0px; */
     /* fill: #ff819eff; */
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     transition: 0.5s;
     padding: 3px;
 }
@@ -106,7 +115,7 @@ img:hover{
 }
 
 #botoes{
-    margin-top: 22vh;
+    margin-top: 21vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +165,7 @@ img:hover{
     padding: 15px;
 }
 
-#exp:hover {
+#exp:hover{
     background-color: var(--branco);
     color: var(--preto);
     scale: 1.05;
@@ -166,6 +175,6 @@ img:hover{
 
 @media screen and (max-width: 1920px) {
     #hero {
-        height: 64vh;
+        height: 72vh;
     }
 }

@@ -1,0 +1,15 @@
+#sobre {
+    height: 100vh;
+    background-color: #bc8895;
+    margin-top: 10vh;
+    /* margin: var(--margem); */
+}
+
+#titulo {
+    color: var(--preto);
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8vh;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,7 +1,7 @@
 import '../styles/global.css';
 import '../styles/hero.css';
 import Face from '../assets/Face.png'
-import { Linkedin, Github } from 'lucide-react';
+import { Linkedin, Github, Mail } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
@@ -40,15 +40,16 @@ export default function Hero() {
             <div>
                 <h1 id='h-titulo'>{textoAtual}</h1>
                 <span id='apresenta'>Eu sou Carlos Lopes</span>
-                <div id='sociais'>
-                    <a href="https://github.com/Caduber" target='_blank'><Github strokeWidth={0} fill='#ff819eff' /></a>
-                    <a href="https://www.linkedin.com/in/caduber/" target='_blank'><Linkedin strokeWidth={0} fill='#ff819eff' /></a>
                 
+                <div id='sociais'>
+                    <a href="https://github.com/Caduber" target='_blank'><Github className='muda-cor' strokeWidth={0} fill='#ff819eff' /></a>
+                    <a href="https://www.linkedin.com/in/caduber/" target='_blank'><Linkedin className='muda-cor' strokeWidth={0} fill='#ff819eff' /></a>
+                    <a href="mailto:caduberdev@gmail.com" target='_blank'><Mail className='muda-cor-stroke' color='#ff819eff' strokeWidth={2.5}/></a>
                 </div>
             </div>
             <div id='botoes'>
-                <button id='port'>Portfólio</button>
-                <button id='exp'>Experiência</button>
+                <a href="https://github.com/Caduber" target='_blank'><button id='port'>Portfólio</button></a>
+                <a href="https://www.linkedin.com/in/caduber/" target='_blank'><button id='exp'>Experiência</button></a>
             </div>
         </div>
         <div id='hero-foto'>
