@@ -1,11 +1,26 @@
 #portfolio {
     background-color: var(--branco);
+    display: flex;
+    justify-content: center;
     height: 100vh;
     width: 100%;
-    z-index: 2;
     position: sticky;
+    z-index: 2;
 }
 
 #portfolio * {
     z-index: 2;
+}
+
+#p-titulo {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4rem;
+}
+
+.titulo {
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    font-size: 4rem;
+    line-height: 4rem;
 }

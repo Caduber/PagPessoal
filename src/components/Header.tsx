@@ -10,7 +10,7 @@ export default function Header() {
             <div id="h-links">
                 <a href="#sobre">Sobre</a>
                 <a href="#portfolio">Portfólio</a>
-                <a href=""><button data-cursor="text">Contato</button></a>
+                <a href="https://wa.me/5514998315316" target='_blank'><button data-cursor="text">Contato</button></a>
             </div>
         </header>
     )
