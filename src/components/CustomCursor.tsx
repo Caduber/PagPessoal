@@ -49,8 +49,8 @@ export default function CustomCursor() {
         }
     }
 
-    const enter = () => setVariant("text");
-    const leave = () => setVariant("default");
+    // const enter = () => setVariant("text");
+    // const leave = () => setVariant("default");
 
     // Componente
     return (
