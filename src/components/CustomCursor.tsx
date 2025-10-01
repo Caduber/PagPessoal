@@ -49,9 +49,6 @@ export default function CustomCursor() {
         }
     }
 
-    // const enter = () => setVariant("text");
-    // const leave = () => setVariant("default");
-
     // Componente
     return (
             <motion.div id='cursor' variants={variants} animate={variant}/>
